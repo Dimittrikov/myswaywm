@@ -1,0 +1,50 @@
+System:
+  Host: dimittrikov-x541na Kernel: 5.12.2-1-MANJARO x86_64 bits: 64 
+  Desktop: sway 1.6 Distro: Manjaro Linux 
+Machine:
+  Type: Laptop System: ASUSTeK product: X541NA v: 1.0 
+  serial: <superuser required> 
+  Mobo: ASUSTeK model: X541NA v: 1.0 serial: <superuser required> 
+  UEFI: American Megatrends v: X541NA.324 date: 09/12/2019 
+Battery:
+  ID-1: BAT0 charge: 35.2 Wh (100.0%) condition: 35.2/34.6 Wh (101.8%) 
+  volts: 10.8 min: 10.8 
+CPU:
+  Info: Dual Core model: Intel Celeron N3350 bits: 64 type: MCP cache: 
+  L2: 1024 KiB 
+  Speed: 1206 MHz min/max: 800/2400 MHz Core speeds (MHz): 1: 1206 2: 1664 
+Graphics:
+  Device-1: Intel HD Graphics 500 driver: i915 v: kernel 
+  Device-2: IMC Networks USB2.0 VGA UVC WebCam type: USB driver: uvcvideo 
+  Display: wayland server: X.org 1.20.11 compositor: sway driver: loaded: intel 
+  unloaded: modesetting resolution: <missing: xdpyinfo> 
+  OpenGL: renderer: Mesa Intel HD Graphics 500 (APL 2) v: 4.6 Mesa 21.0.3 
+Audio:
+  Device-1: Intel Celeron N3350/Pentium N4200/Atom E3900 Series Audio Cluster 
+  driver: snd_hda_intel 
+  Sound Server-1: ALSA v: k5.12.2-1-MANJARO running: yes 
+  Sound Server-2: PipeWire v: 0.3.28 running: yes 
+Network:
+  Device-1: Realtek RTL810xE PCI Express Fast Ethernet driver: r8169 
+  IF: enp1s0 state: down mac: 4c:ed:fb:99:b9:65 
+  Device-2: Realtek RTL8723BE PCIe Wireless Network Adapter driver: rtl8723be 
+  IF: wlp2s0 state: up mac: 00:f4:8d:02:3c:32 
+Bluetooth:
+  Device-1: Realtek Bluetooth Radio type: USB driver: btusb 
+  Report: rfkill ID: hci0 rfk-id: 1 state: down bt-service: enabled,running 
+  rfk-block: hardware: no software: yes address: see --recommends 
+Drives:
+  Local Storage: total: 465.76 GiB used: 160.46 GiB (34.5%) 
+  ID-1: /dev/sda vendor: Toshiba model: MQ01ABF050 size: 465.76 GiB 
+Partition:
+  ID-1: / size: 78.13 GiB used: 31.48 GiB (40.3%) fs: ext4 dev: /dev/sda4 
+  ID-2: /boot/efi size: 512 MiB used: 296 KiB (0.1%) fs: vfat dev: /dev/sda1 
+  ID-3: /home size: 287.37 GiB used: 128.97 GiB (44.9%) fs: ext4 dev: /dev/sda3 
+Swap:
+  ID-1: swap-1 type: file size: 8 GiB used: 524 KiB (0.0%) file: /swapfile 
+Sensors:
+  System Temperatures: cpu: 35.0 C mobo: N/A 
+  Fan Speeds (RPM): cpu: 2300 
+Info:
+  Processes: 190 Uptime: 1h 39m Memory: 3.71 GiB used: 2.36 GiB (63.7%) 
+  Shell: Zsh inxi: 3.3.04 
